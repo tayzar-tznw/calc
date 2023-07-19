@@ -42,9 +42,7 @@ export const calculatorOperations: CalculatorOperations = {
 };
 
 export const getFormattedValue = (value: string): string => {
-  const language = navigator.language || 'en-US';
-
-  const formattedNumber = parseFloat(value).toLocaleString(language, {
+  const formattedNumber = parseFloat(value).toLocaleString('en-US', {
     useGrouping: true,
     maximumFractionDigits: 6,
   });

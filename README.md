@@ -11,3 +11,8 @@ To start local server:
 ```shell
 pnpm run dev
 ```
+
+To test with jest + testing library:
+```shell
+pnpm run test
+```
