@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import './CalculatorKey.scss';
 
 interface ICalculatorKeyProps {
   keyValue: string | number;

@@ -3,6 +3,7 @@ import { useCalculator } from '../../hooks/useCalculator';
 import { calculatorOperations, digitKeys } from '../../utils/helpers';
 import { CalculatorDisplay } from '../CalculatorDisplay';
 import { CalculatorKey } from '../CalculatorKey';
+import './Calculator.scss';
 
 export const Calculator = () => {
   const { state, handleClick } = useCalculator();

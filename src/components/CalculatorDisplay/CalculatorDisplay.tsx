@@ -1,5 +1,6 @@
 import { FC, useRef, useState, useEffect } from 'react';
 import { getFormattedValue } from '../../utils/helpers';
+import './CalculatorDisplay.scss';
 
 export interface ICalculatorDisplayProps {
   value: string;
