@@ -1,5 +1,7 @@
 # Calculator app with React + TypeScript + Vite
 
+Live preview: https://calc-sooty-omega.vercel.app/
+
 # How to setup
 
 Use the following command to install necessary packages:
